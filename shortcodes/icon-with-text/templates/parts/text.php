@@ -16,5 +16,5 @@ if ( ! empty( $title ) ) { ?>
 	</<?php echo esc_attr( $title_tag ); ?>>
 <?php } ?>
 <?php if ( ! empty( $text ) ) { ?>
-	<p class="evc-iwt-text" <?php extensive_vc_print_inline_style( $text_styles ); ?>><?php echo esc_html( $text ); ?></p>
+	<p class="evc-iwt-text" <?php extensive_vc_print_inline_style( $text_styles ); ?>><?php echo $text; ?></p>
 <?php } ?>
